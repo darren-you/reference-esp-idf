@@ -29,7 +29,7 @@
     {
       "path": "components/mbedtls/mbedtls",
       "repository": "https://github.com/darren-you/reference-sdk-mbedtls.git",
-      "commit": "e35133de103716894c66a1599e37bb0f26ab5a60",
+      "commit": "5874f37c0e710d440ea43f1a35276003a6cb47c1",
       "upstream_repository": "https://github.com/espressif/mbedtls",
       "upstream_commit": "a2b32072ea898afc1ed5b6caf6931e36028c91d6"
     },
@@ -50,7 +50,7 @@
     {
       "path": "components/openthread/openthread",
       "repository": "https://github.com/darren-you/reference-sdk-openthread.git",
-      "commit": "31b2df87e4380a404914f1b8086867089492379e",
+      "commit": "917b3a444903ad3999b8010c3ceb1c92469b1435",
       "upstream_repository": "https://github.com/espressif/openthread",
       "upstream_commit": "b678a4f63b6f9397d1a0fa8f31e5b8e0271a4d00"
     }
