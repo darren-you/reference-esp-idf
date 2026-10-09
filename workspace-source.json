@@ -50,7 +50,7 @@
     {
       "path": "components/openthread/openthread",
       "repository": "https://github.com/darren-you/reference-sdk-openthread.git",
-      "commit": "545343d48e340fe4e8ecf2a0bc2e5c19d383cd0c",
+      "commit": "31b2df87e4380a404914f1b8086867089492379e",
       "upstream_repository": "https://github.com/espressif/openthread",
       "upstream_commit": "b678a4f63b6f9397d1a0fa8f31e5b8e0271a4d00"
     }
