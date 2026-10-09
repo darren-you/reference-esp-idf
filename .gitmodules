@@ -49,15 +49,15 @@
 
 [submodule "components/mbedtls/mbedtls"]
 	path = components/mbedtls/mbedtls
-	url = ../../espressif/mbedtls.git
+	url = https://github.com/darren-you/reference-sdk-mbedtls.git
 
 [submodule "components/lwip/lwip"]
 	path = components/lwip/lwip
-	url = ../../espressif/esp-lwip.git
+	url = https://github.com/darren-you/reference-sdk-lwip.git
 
 [submodule "components/protobuf-c/protobuf-c"]
 	path = components/protobuf-c/protobuf-c
-	url = ../../protobuf-c/protobuf-c.git
+	url = https://github.com/darren-you/reference-sdk-protobuf-c.git
 	sbom-version = 1.4.1
 	sbom-cpe = cpe:2.3:a:protobuf-c_project:protobuf-c:{}:*:*:*:*:*:*:*
 	sbom-supplier = Organization: protobuf-c community <https://groups.google.com/g/protobuf-c>
@@ -67,7 +67,7 @@
 
 [submodule "components/unity/unity"]
 	path = components/unity/unity
-	url = ../../ThrowTheSwitch/Unity.git
+	url = https://github.com/darren-you/reference-sdk-unity.git
 	sbom-version = v2.6.0-RC1
 	sbom-supplier = Organization: ThrowTheSwitch community <http://www.throwtheswitch.org>
 	sbom-url = https://github.com/ThrowTheSwitch/Unity
@@ -76,7 +76,7 @@
 
 [submodule "components/bt/host/nimble/nimble"]
 	path = components/bt/host/nimble/nimble
-	url = ../../espressif/esp-nimble.git
+	url = https://github.com/darren-you/reference-sdk-esp-nimble.git
 
 [submodule "components/esp_wifi/lib"]
 	path = components/esp_wifi/lib
@@ -94,7 +94,7 @@
 
 [submodule "components/openthread/openthread"]
 	path = components/openthread/openthread
-	url = ../../espressif/openthread.git
+	url = https://github.com/darren-you/reference-sdk-openthread.git
 
 [submodule "components/bt/controller/lib_esp32c3_family"]
 	path = components/bt/controller/lib_esp32c3_family
@@ -138,7 +138,7 @@
 
 [submodule "components/heap/tlsf"]
 	path = components/heap/tlsf
-	url = ../../espressif/tlsf.git
+	url = https://github.com/darren-you/reference-sdk-tlsf.git
 
 [submodule "components/esp_coex/lib"]
 	path = components/esp_coex/lib

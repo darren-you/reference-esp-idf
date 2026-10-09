@@ -3,5 +3,56 @@
   "upstream_commit": "578cf89c343e388db43ba1f4ddcd602fedcb763c",
   "purpose": "ESP MQTT 固定 SDK 来源；只退出 GitHub Actions 定义、专属环境、徽章与生成接线，保留普通 SDK 源码和验证行为",
   "source_owner": "darren-space",
-  "source_issue": "https://github.com/darren-you/darren-space/issues/64"
+  "source_issue": "https://github.com/darren-you/darren-space/issues/64",
+  "source_dependencies": [
+    {
+      "path": "components/bt/host/nimble/nimble",
+      "repository": "https://github.com/darren-you/reference-sdk-esp-nimble.git",
+      "commit": "c3b85fbfa22aeeab376fd2beb53ed02d951d5161",
+      "upstream_repository": "https://github.com/espressif/esp-nimble",
+      "upstream_commit": "139cada0ae932957fa06ba37d17e3c9c2c95c773"
+    },
+    {
+      "path": "components/heap/tlsf",
+      "repository": "https://github.com/darren-you/reference-sdk-tlsf.git",
+      "commit": "46728273434655e92d7e165425e3ee5d63766b74",
+      "upstream_repository": "https://github.com/espressif/tlsf",
+      "upstream_commit": "2867f6883a12920b1969ff9624c0ab0e4185c2ce"
+    },
+    {
+      "path": "components/lwip/lwip",
+      "repository": "https://github.com/darren-you/reference-sdk-lwip.git",
+      "commit": "8de577d3862fa2b77c1c179d1842e96b6199b65e",
+      "upstream_repository": "https://github.com/espressif/esp-lwip",
+      "upstream_commit": "c6f2f878e7b0f86033214b85547d579be43351e3"
+    },
+    {
+      "path": "components/mbedtls/mbedtls",
+      "repository": "https://github.com/darren-you/reference-sdk-mbedtls.git",
+      "commit": "e35133de103716894c66a1599e37bb0f26ab5a60",
+      "upstream_repository": "https://github.com/espressif/mbedtls",
+      "upstream_commit": "a2b32072ea898afc1ed5b6caf6931e36028c91d6"
+    },
+    {
+      "path": "components/protobuf-c/protobuf-c",
+      "repository": "https://github.com/darren-you/reference-sdk-protobuf-c.git",
+      "commit": "3223ab98f23e0a3013d5bc3dad48740ec68e7d05",
+      "upstream_repository": "https://github.com/protobuf-c/protobuf-c",
+      "upstream_commit": "abc67a11c6db271bedbb9f58be85d6f4e2ea8389"
+    },
+    {
+      "path": "components/unity/unity",
+      "repository": "https://github.com/darren-you/reference-sdk-unity.git",
+      "commit": "f2ff9c4c78e5e550bbcffdd7bac4ddb01b3548c5",
+      "upstream_repository": "https://github.com/ThrowTheSwitch/Unity",
+      "upstream_commit": "bf560290f6020737eafaa8b5cbd2177c3956c03f"
+    },
+    {
+      "path": "components/openthread/openthread",
+      "repository": "https://github.com/darren-you/reference-sdk-openthread.git",
+      "commit": "545343d48e340fe4e8ecf2a0bc2e5c19d383cd0c",
+      "upstream_repository": "https://github.com/espressif/openthread",
+      "upstream_commit": "b678a4f63b6f9397d1a0fa8f31e5b8e0271a4d00"
+    }
+  ]
 }
